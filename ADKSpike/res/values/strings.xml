@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ADKSpikeActivity!</string>
+    <string name="app_name">ADKSpike</string>
+    <string name="button_left">Left</string>
+    <string name="button_right">Right</string>
+    <string name="light_value_raw">Light Value(raw):</string>
+    <string name="sensor_call_count">Sensor Call Count:</string>
+    <string name="temperature_value">Temperature:</string>
+    <string name="pressure_value">Pressure:</string>
+</resources>

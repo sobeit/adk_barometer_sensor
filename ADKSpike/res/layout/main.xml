@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+<LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="wrap_content">
+    <Button android:text="@string/button_left" android:id="@+id/button_left" android:layout_width="66dp" android:layout_height="35dp"></Button>
+    <Button android:text="@string/button_right" android:id="@+id/button_right" android:layout_width="66dp" android:layout_height="35dp"></Button>
+</LinearLayout>
+
+<LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="wrap_content">
+<TextView
+    android:id="@+id/light_rawval_caption"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/light_value_raw" />
+
+<TextView
+    android:id="@+id/light_rawval_val"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="" />
+</LinearLayout>
+<LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:layout_width="wrap_content">
+    
+<TextView
+    android:id="@+id/sensor_call_count_caption"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/sensor_call_count" />
+
+<TextView
+    android:id="@+id/sensor_call_count_val"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="" />
+</LinearLayout>
+
+<LinearLayout android:id="@+id/linearLayout3" android:layout_height="wrap_content" android:layout_width="wrap_content">
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/temperature_value" />
+<TextView
+    android:id="@+id/temperature_val"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="" />
+</LinearLayout>
+<LinearLayout android:id="@+id/linearLayout4" android:layout_height="wrap_content" android:layout_width="wrap_content">
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/pressure_value" />
+<TextView
+    android:id="@+id/pressure_val"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="" />
+</LinearLayout>
+    
+</LinearLayout>

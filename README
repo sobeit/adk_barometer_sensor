@@ -1,0 +1,5 @@
+ADKで気圧・温度計からデータを取るexample
+
+・今のところAndroidのクライアント側はデータを取って表示しているだけ
+・気圧/温度計はSparkFunのBMP085 I2Cを利用
+・ProcessingのコードはBMP085 I2Cの参照実装のコードを流用
